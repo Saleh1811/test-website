@@ -3,123 +3,112 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ANWIDEA EXPRESS</title>
+<title>Express Transport Service</title>
 
 <style>
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
 body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    color: #222;
+}
+
+header {
+    background: #0c2d57;
     color: white;
-}
-
-.hero {
-    height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
-    url('https://images.unsplash.com/photo-1601582589907-f92af5ed9db8');
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-}
-
-.hero h1 {
-    font-size: 38px;
-    margin-bottom: 15px;
-    letter-spacing: 2px;
-}
-
-.hero p {
-    font-size: 18px;
-    color: #ddd;
-    margin-bottom: 30px;
-}
-
-.button {
-    padding: 15px 40px;
-    background: #ff6600;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 40px;
-    transition: 0.3s;
-}
-
-.button:hover {
-    background: white;
-    color: #ff6600;
-    transform: scale(1.1);
-}
-
-.section {
-    background: #111;
     padding: 60px 20px;
     text-align: center;
 }
 
-.section h2 {
-    margin-bottom: 30px;
+header h1 {
+    margin: 0;
+    font-size: 32px;
 }
 
-.card-container {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    max-width: 400px;
-    margin: auto;
+header p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #ddd;
 }
 
-.card {
-    background: #1c1c1c;
-    padding: 20px;
-    border-radius: 15px;
+.button {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 15px 35px;
+    background: #c8102e;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
     transition: 0.3s;
 }
 
-.card:hover {
-    background: #ff6600;
-    transform: translateY(-5px);
+.button:hover {
+    background: #a50d25;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.services {
+    max-width: 900px;
+    margin: auto;
+}
+
+.service-box {
+    background: #f4f6f9;
+    margin: 15px;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.contact {
+    background: #0c2d57;
+    color: white;
 }
 
 footer {
-    background: black;
     padding: 20px;
     text-align: center;
-    color: #777;
+    font-size: 14px;
+    background: #111;
+    color: #aaa;
 }
 
 </style>
 </head>
+
 <body>
 
-<div class="hero">
-    <h1>DEIN FIRMENNAME</h1>
-    <p>Schnell • Sicher • Europaweit unterwegs</p>
-    <a href="#" class="button">Jetzt Angebot anfragen</a>
+<header>
+<h1>Express Transport Service</h1>
+<p>Ihr zuverlässiger Partner für Express- & Direktfahrten</p>
+<a href="#" class="button">Jetzt Angebot anfordern</a>
+</header>
+
+<section>
+<h2>Unsere Leistungen</h2>
+
+<div class="services">
+<div class="service-box">🚚 Express-Transporte deutschlandweit</div>
+<div class="service-box">📦 Direktfahrten ohne Umladung</div>
+<div class="service-box">🌍 Europaweite Spezialtransporte</div>
 </div>
 
-<div class="section">
-    <h2>Unsere Leistungen</h2>
+</section>
 
-    <div class="card-container">
-        <div class="card">🚚 Express-Transporte</div>
-        <div class="card">📦 Direktfahrten</div>
-        <div class="card">🌍 Europaweite Lieferung</div>
-        <div class="card">❄️ Temperaturgeführte Transporte</div>
-    </div>
-</div>
+<section class="contact">
+<h2>Kontakt</h2>
+<p>Telefon: +49 123 456789</p>
+<p>Email: info@deinefirma.de</p>
+<a href="#" class="button">Jetzt unverbindlich anfragen</a>
+</section>
 
 <footer>
-    <p>© 2026 Dein Transportunternehmen</p>
+<p>© 2026 Express Transport Service</p>
 </footer>
 
 </body>
